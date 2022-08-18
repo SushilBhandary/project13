@@ -10,7 +10,7 @@ The website focuses on implementing the basics of HTML and CSS to create this We
 - margin
 - box-shadow
 
-## [Live Preview](https://imaginative-lamington-1baba7.netlify.app/)
+## [Live Preview](https://gleaming-conkies-6ef5c8.netlify.app/)
 
 ### SnapShot of the Webpage
 
