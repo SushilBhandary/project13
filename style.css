@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', serif;
+}
+
+.startpage{
+    background-color: #7030CC;
+    color: #ffffff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+nav>img{
+    height: 40px;
+}
+
+nav>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    position: relative;
+    left: 160px;
+}
+
+nav>ul>li{
+    margin-right: 60px;
+    padding: 10px;
+}
+
+nav>button{
+    background-color: #1acce3;
+    border: 0;
+    width: 130px;
+    padding: 15px;
+    color: #ffffff;
+}
+
+nav>button:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.startpage>div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.startpage>div>img{
+    height: 530px;
+}
+
+.startpage>div>div>h1{
+    font-size: 65px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.saas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.saas>img{
+    height: 650px;
+}
+
+.saas>div{
+    margin-top: 130px;
+    position: relative;
+    right: 100px;
+}
+
+.saas>div>h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.saas>div>div>h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.saas>div>div>p{
+    margin-bottom: 40px;
+    position: relative;
+    left: 40px;
+}
+
+.saas>div>div>h1>img{
+    height: 25px;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+.words{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.card{
+    
+    padding-top: 30px;
+    text-align: center;
+    box-shadow: 7px 7px 5px #9f9f9f;
+    border-radius: 20px;
+    width: 220px;
+}
+
+.circle{
+    background-color: #FAEAEB;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+    left: 50px;
+}
+
+.circle>img{
+    height: 70px;
+    position: relative;
+    top:20px;
+}
+
+.cardHover>h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cardHover{
+    height: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.cardHover:hover{
+    background-color: #7030CC;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width : 1452px ) {
+    nav{
+        margin-right: 100px;
+    }
+
+    nav>ul>li{
+        margin-right: 40px;
+    }
+}
+
+
+@media screen and (max-width : 1263px ) {
+    nav{
+        margin-right: 40px;
+    }
+
+    nav>ul>li{
+        margin-right: 20px;
+    }
+    .startpage>div>img{
+        height: 430px;
+    }
+}
