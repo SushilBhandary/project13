@@ -37,6 +37,10 @@ nav>ul>li{
     padding: 10px;
 }
 
+nav>ul>li:hover{
+    color: #9f9f9f;
+}
+
 nav>button{
     background-color: #1acce3;
     border: 0;
@@ -112,10 +116,9 @@ nav>button:hover{
 .cards{
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
-    margin-bottom: 150px;
-    padding-left: 200px;
-    padding-right: 200px;
+    width: 80%;
+    margin: 100px auto;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -183,4 +186,33 @@ nav>button:hover{
     .startpage>div>img{
         height: 430px;
     }
+}
+
+
+@media screen and (max-width : 950px ) {
+    nav>ul>li{
+        margin-right: 10px;
+    }
+    nav>ul{
+        left: 20px;
+    }
+    .startpage>div{
+        flex-direction: column;
+        width: 80%;
+        margin: 20px auto;
+    }
+    .saas{
+        flex-direction: column;
+        width: 80%;
+        margin: 20px auto;
+    }
+    .saas>div{
+        margin-top: 0px;
+        right: -20px;
+    }
+    nav{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
 }
